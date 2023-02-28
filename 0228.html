@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            list-style: none;
+            padding: 0px;
+            margin: 0px;
+        }
+        .wrap{
+            width: 1200px;
+            display: flex;
+            flex-wrap: wrap;
+        }
+        .wrap .card{
+            display: flex;
+            width: 239px;
+            padding: 10px 0;
+            justify-content: space-around;
+            
+        }
+        .wrap .card:nth-child(-n+5){
+            border-bottom:1px solid black ;
+            
+        }
+        .wrap .card:not(:nth-child(5n)){
+            border-right: 1px solid black ; 
+        }
+        .card .pic img{
+            width:100%;
+            border-radius: 50%;
+        }
+        .wrap .card .text{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+           
+        }
+        .wrap{
+            border: 1px solid black;
+            padding: 20px;
+            margin: 20px auto;
+            
+        }
+        .container{
+            background-color: cadetblue;
+            padding: 20px;
+            margin: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="wrap">
+            <div class="card">
+                <div class="text">
+                    <h1>title</h1>
+                    <p>111</p>
+                </div>
+                <div class="pic">
+                    <img src="https://fakeimg.pl/120x120/200">
+                </div>
+            </div>
+            <div class="card">
+                <div class="text">
+                    <h1>title</h1>
+                    <p>111</p>
+                </div>
+                <div class="pic">
+                    <img src="https://fakeimg.pl/120x120/200">
+                </div>
+            </div>
+            <div class="card">
+                <div class="text">
+                    <h1>title</h1>
+                    <p>111</p>
+                </div>
+                <div class="pic">
+                    <img src="https://fakeimg.pl/120x120/200">
+                </div>
+            </div>
+            <div class="card">
+                <div class="text">
+                    <h1>title</h1>
+                    <p>111</p>
+                </div>
+                <div class="pic">
+                    <img src="https://fakeimg.pl/120x120/200">
+                </div>
+            </div>
+            <div class="card">
+                <div class="text">
+                    <h1>title</h1>
+                    <p>111</p>
+                </div>
+                <div class="pic">
+                    <img src="https://fakeimg.pl/120x120/200">
+                </div>
+            </div>
+            <div class="card">
+                <div class="text">
+                    <h1>title</h1>
+                    <p>111</p>
+                </div>
+                <div class="pic">
+                    <img src="https://fakeimg.pl/120x120/200">
+                </div>
+            </div>
+            <div class="card">
+                <div class="text">
+                    <h1>title</h1>
+                    <p>111</p>
+                </div>
+                <div class="pic">
+                    <img src="https://fakeimg.pl/120x120/200">
+                </div>
+            </div>
+            <div class="card">
+                <div class="text">
+                    <h1>title</h1>
+                    <p>111</p>
+                </div>
+                <div class="pic">
+                    <img src="https://fakeimg.pl/120x120/200">
+                </div>
+            </div>
+            <div class="card">
+                <div class="text">
+                    <h1>title</h1>
+                    <p>111</p>
+                </div>
+                <div class="pic">
+                    <img src="https://fakeimg.pl/120x120/200">
+                </div>
+            </div>
+            <div class="card">
+                <div class="text">
+                    <h1>title</h1>
+                    <p>111</p>
+                </div>
+                <div class="pic">
+                    <img src="https://fakeimg.pl/120x120/200">
+                </div>
+            </div>
+        </div>
+    </div>
+    
+
+</body>
+</html>
